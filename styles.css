@@ -40,9 +40,18 @@ section {
     align-items: center;
 }
 
+
 .banner {
-    background: rgb(242, 200, 20);
+    position: relative;
+    height: 100vh;
+    background: url(imagens/banner2.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .banner img {
     max-width: 100%;
     height: auto;
@@ -153,7 +162,6 @@ header ul li a {
 .services-dark h2 {
     color: #fff;
 }
-
 .services-dark .content .servicesBx {
     border: none !important;
     background: #222;
@@ -261,6 +269,19 @@ footer{
         padding: 20px 50px;
         z-index: 1000;
     }
+    .logo-text {
+        font-size: 14px;
+    }
+    .banner {
+        position: relative;
+        height: 100vh;
+        background: url(imagens/banner2_mobile.jpg);
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .menu {
         position: fixed;
         top: 75px;
@@ -286,14 +307,14 @@ footer{
     .toggle {
         width: 40px;
         height: 40px;
-        background: url(menu.png);
+        background: url(imagens/menu.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 30px;
         cursor: pointer
     }
     .toggle.active {
-        background: url(close.png);
+        background: url(imagens/close.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
