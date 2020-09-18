@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portifolio | Responsive Website Design</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-imgBx">
+                <img src="imagens/logo3.png">
+            </div>
+            <div class="logo-text">
+                <strong>Laboratório</strong><br>de <strong>Inovações</strong>
+            </div>
+        </div>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="http://www.tre-go.jus.br/" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#acompanhamento" onclick="toggleMenu()">Acompanhamento</a></li>
+            <li><a href="#governanca" onclick="toggleMenu()">Governança</a></li>
+            <li><a href="#estrategia" onclick="toggleMenu()">Estratégia</a></li>
+            <li><a href="#rodape" onclick="toggleMenu()">Contato</a></li>
+        </ul>
+    </header>
+
+    <div class="banner" id="home">
+        <img src="imagens/banner2.jpg">
+    </div>
+    
+    <section class="services" id="acompanhamento">
+        <div class="heading">
+            <img src="imagens/graph.png" class="img-title">
+            <h2>Acompanhamento</h2>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <div class="card">
+                    <img src="imagens/indicadores.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">Indicadores</h2>
+                        <p>Uma visão objetiva dos principais nortes do Tribunal</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="servicesBx">
+                <div class="card">
+                    <img src="imagens/pad.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">PAD</h2>
+                        <p>Entenda o fluxo do processos que circulam no Órgão</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>   
+            </div>
+
+            
+            <div class="servicesBx">
+                <div class="card">
+                    <img src="imagens/despesasPessoal.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">Despesas com Pessoal</h2>
+                        <p>Veja em valores quanto o Tribunal gasta com Pessoal</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>   
+            </div>
+
+            
+            <div class="servicesBx">
+                <div class="card">
+                    <img src="imagens/contratos.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">Gestão de Contratos</h2>
+                        <p>Acompanhe o fluxo dos contratos firmados pelo Órgão</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="servicesBx">
+                <div class="card">
+                    <img src="imagens/infodip.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">InfoDip</h2>
+                        <p>Comunicações de óbitos, suspensão e restabelecimento de direitos políticos</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="servicesBx">
+                <div class="card">
+                    <img src="imagens/datajud.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title text-center"><strong>DATA</strong>JUD</h2>
+                        <p>Veja a qualidade das informações prestadas ao CNJ</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>   
+            </div>
+
+        </div>
+    </section>
+
+    <section class="services services-dark" id="governanca">
+        <div class="heading white">
+            <img src="imagens/government.png" class="img-title">
+            <h2>Governança</h2>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="imagens/socioambiental_bw.jpg">
+                <h2>Socioambiental</h2>
+                <p>Ações de responsabilidade ambiental promovidas na instituição</p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+            <div class="servicesBx">
+                <img src="imagens/premioCnj_bw.jpg">
+                <h2>Plano de Gestão</h2>
+                <p>Observe a produtividade e a qualidade de prestação jurisdicional</p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+            <div class="servicesBx">
+                <img src="imagens/transparencia_bw.jpg">
+                <h2>Transparência</h2>
+                <p>Veja o status do Tribunal em relação à Portaria 67/2020 do CNJ</p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+   
+    <section class="services" id="estrategia">
+        <div class="heading">
+            <img src="imagens/chess.png" class="img-title">
+            <h2>Estratégia</h2>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <div class="card">
+                    <img src="imagens/locaisVotacao.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Locais de Votação</h5>
+                        <p>Entenda a distribuição das seções e dos locais de votação em todo o Estado</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="servicesBx">
+                <div class="card">
+                    <img src="imagens/perfilEleitorado.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Perfil do Eleitorado</h5>
+                        <p>Veja como está distribuído o eleitorado por faixa etária, sexo, local, etc</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>   
+            </div>
+            
+            <div class="servicesBx">
+                <div class="card">
+                    <img src="imagens/pessoal.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Força de Trabalho</h5>
+                        <p>Compreenda como está distribuída a força de trabalho da instituição</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div> 
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="rodape">
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="logoFooter">
+                        <div class="imgFooter">
+                            <img src="imagens/logoLab.png">
+                        </div>
+                        <div class="textoFooter">
+                            <span>Laboratório de Inovações</span><br>
+                            AAGGE<br>
+                            Diretoria Geral
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="address">
+                        <span>Tribunal Regional Eleitoral de Goiás</span>    
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> <a href="#">Praça Cívica, 300, Centro, Goiânia - GO – 74003-010</a></li>
+                    </ul>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="address">
+                        <span>Contato</span>       
+                        <li> <i class="fa fa-phone" aria-hidden="true"></i> <a href="#">(62) 3920-4250</a></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="#">aagge@tre-go.jus.br</a></li> 
+                    </ul>
+                </div>
+
+            </div> 
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', () => {
+            var header = document.querySelector('header')
+            header.classList.toggle('sticky', window.scrollY > 0)
+        })
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle')
+            var menu = document.querySelector('.menu')
+            menuToggle.classList.toggle('active')
+            menu.classList.toggle('active')
+        }
+    </script>
+
+</body>
+</html>
