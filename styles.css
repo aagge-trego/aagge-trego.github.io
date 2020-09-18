@@ -150,6 +150,10 @@ header ul li a {
     color: #fff;
 }
 
+.services-dark h2 {
+    color: #fff;
+}
+
 .services-dark .content .servicesBx {
     border: none !important;
     background: #222;
