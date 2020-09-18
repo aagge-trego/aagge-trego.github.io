@@ -299,9 +299,6 @@ footer{
         background-size: 25px;
         cursor: pointer
     }
-    header.sticky .toggle {
-        filter: invert(1);
-    }
     section {
         padding: 100px 50px;
     }
