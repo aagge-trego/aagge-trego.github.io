@@ -293,7 +293,7 @@ footer{
     }
     .menu {
         position: fixed;
-        top: 75px;
+        top: 50px;
         left: -100%;
         display: block;
         padding: 100px 50px;
