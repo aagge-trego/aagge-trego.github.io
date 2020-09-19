@@ -268,12 +268,17 @@ footer{
         z-index: 1000;
     }
     .logo-text {
-        font-size: 14px;
+        font-size: 12px;
+        margin: 5px;
+
     }
-    
+
+    .logo-imgBx {
+        width: 50px;
+    }
+
     .logo-imgBx img {
-        max-width: 75%;
-        margin: 0 auto;
+        margin: 0;
     }
 
     .banner {
