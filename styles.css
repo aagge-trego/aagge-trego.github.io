@@ -33,13 +33,11 @@ section {
 }
 
 .logo-imgBx {
-    padding-right: 5px;
     width: 75px;
+    max-width: 80%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
-
 
 .banner {
     position: relative;
@@ -272,6 +270,12 @@ footer{
     .logo-text {
         font-size: 14px;
     }
+    
+    .logo-imgBx img {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
     .banner {
         position: relative;
         height: 100vh;
@@ -310,16 +314,21 @@ footer{
         background: url(imagens/menu.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 30px;
-        cursor: pointer
+        background-size: 25px;
+        cursor: pointer;
     }
     .toggle.active {
         background: url(imagens/close.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
-        cursor: pointer
+        cursor: pointer;
     }
+
+    .toggle img, .toggle-active img {
+        max-width: 50%;
+    }
+
     section {
         padding: 100px 50px;
     }
@@ -374,7 +383,7 @@ footer{
 @media (max-width: 600px) {
     header,
     header.sticky {
-        padding: 20px 20px;
+        padding: 5px 5px;
     }
     .banner {
         padding: 150px 50px 20px;
